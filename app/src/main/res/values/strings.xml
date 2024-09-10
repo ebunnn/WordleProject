@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WordleProject</string>
+    <string name="hint_enter_word">Enter a 4-letter word</string>
+    <string name="submit">Submit</string>
+    <string name="result_placeholder">Result will show here</string>
+</resources>
