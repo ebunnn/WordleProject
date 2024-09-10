@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
                 // Check if the game is over
                 if (guessCount >= maxGuesses || result == "OOOO") {
                     findViewById<TextView>(R.id.tv_final_word).text = wordToGuess
-                    Toast.makeText(applicationContext, "Game Over", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext, "No more guesses left", Toast.LENGTH_SHORT).show()
                 }
             }
         }
